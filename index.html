@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Congo Stories</title>
+</head>
+<body>
+    <nav class="navbar">    
+        <h1 class="logo">CONGO STORIES</h1>
+        <ul class="nav-links"> 
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="#">Trip To Congo</a></li>
+            <li class="ctn"><a  href="#">Contact</a></li>
+        </ul>
+        <img class="menu-btn" src="/images/menuIcon3.png">  </img>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Jungel Stories</h2>
+            <div class="line">  </div>
+            <h1>Transforming Congo stories to Games</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!--Event-->
+    <section class="events" >
+        <div class="title">
+            <h1>Transform Congo stories to Games</h1>
+            <div class="line"> </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="images/hyena2.jpg" alt="">
+                <h4>The Farmer, the rabbit, the Carrots and the hyena</h4>
+                <p>The farmer needs to get across the river,</br>
+                     but he can only take one thing at a time with him in the boat.</br>
+                    Help the farmer solve this problem!</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/ape.jpg" alt="">
+                <h4>The Apes Mango</h4>
+                <p>up coming...</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">   
+        <h1>EXPLORE CONGO</h1>
+        <div class="line">  </div>
+        <p>Travel To Congo</p>
+        <a class="ctn" href="">Learn More</a>
+       </div>
+    </section>
+
+    <section class="tours"> 
+        <div class="row">
+            <div class="col conten-col ">   
+                <h1>UPCOMNING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p class="travelP">Coming trips </p>
+                <a href="https://www.youtube.com/" class="ctn">Learn More</a>
+            </div>
+            <div class="col img-col">   
+                <div class="image-gallery"> 
+                    <img src="/images/congoimg6.webp" alt="">
+                    <img src="/images/congoimg2.jpg" alt="">
+                    <img src="/images/kinshasa.webp" alt="">
+                    <img src="/images/congoimg3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p class="footerp">Dalbogatan 10, 5038 Borås| Telefonnumer: 0763113989| Email:bicko.makinda@bleack.se</p>
+        <p class="footerp">Tack för besöket!</p>
+
+    </section>
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links")
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle("mobile-menu");
+        })
+    </script>
+</body>
+</html>

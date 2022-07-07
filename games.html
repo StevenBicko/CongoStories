@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Congo stories Games</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbarGames">
+            <h1 class="logo">CONGO STORIES</h1>
+            <div class="navGames">
+                <ul id="menuList">
+                    <li><a class="aGames " href="index.html">Home</a></li>
+                    <li><a class="aGames active" href="">Games</a></li>
+                    <li><a class="aGames" href="">Trip To Congo</a></li>
+                    <li><a class="aGames" href="">Contact</a></li>
+
+                </ul>
+            </div>
+            <img class="menu-iconGames" onclick="togglemenu()" src="/images/menuIcon3.png" alt="" >
+        </div>
+
+        <div class="rowgames">
+            <div class="col-1Games">
+                <h2>LEARN WHIT US...<br>WHERE STORIES BECOME TRUE </h2>
+                <h3>WOULD YOU LIKE TO PLAY OUR GAMES IN AN APP?</h3>
+               
+                <button type="button">Yes  <img class="imgPil" src="/images/pil2.svg" alt=""></button>
+            </div>
+
+            <div class="col-2Games">
+                <img class="controller" src="/images/controll.jpg" alt="">
+                <div class="color-box"> </div>
+                <div class="add-btn">
+                    <img src="/images/" alt="">
+                    <p><small>Add TO Cart</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <img src="/images/insta.png" alt="">
+        <img src="/images/linkedIn.png" alt="">
+        <img src="/images/facebook.png" alt="">
+    </div>
+    
+    
+
+
+
+    <section class="footer">
+        <p class="footerp">Dalbogatan 10, 5038 Borås| Telefonnumer: 0763113989| Email:bicko.makinda@bleack.se</p>
+        <p class="footerp">Tack för besöket!</p>
+
+    </section>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight ="0px";
+
+        function togglemenu()
+        {
+            if(menuList.style.maxHeight= "0px")
+            {
+               menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+    
+</body>
+</html>

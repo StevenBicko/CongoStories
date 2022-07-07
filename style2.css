@@ -1,0 +1,306 @@
+
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+            font-family: sans-serif;
+        }
+        
+        a{
+            text-decoration: none;
+            color: whitesmoke
+        }
+        
+        .container
+        {
+            width: 100%;
+            min-height: 100vh;
+            min-height: 100vh;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .navbarGames
+        {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-iconGames
+        {
+            width: 25px;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        .navGames
+        {
+            flex: 1;
+            text-align: right;
+        }
+
+        .navGames ul li
+        {
+            list-style: none;
+            display: inline-block;
+            margin-left: 30px;
+        }
+
+        .aGames{
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+        }
+
+        a:hover
+        {
+            color:#ff5ea2 ;
+
+        }
+
+        .rowgames
+        {
+            display:  flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:100px 0;
+        }
+
+        .col-1Games
+        {
+            flex-basis: 40%;
+            position: relative;
+            margin-left: 50px;
+        }
+
+        .col-1Games h2
+        {
+            font-size: 30px;
+            color: #707070;
+            font-weight:54;
+        }
+
+        .col-1Games h3
+        {
+            font-size: 30px;
+            color: #707070;
+            font-weight: 100;
+            margin: 20px 0 10px;
+
+        }
+
+        .col-1Games p
+        {
+            font-size: 16px;
+            color: #b7b7b7;
+            font-weight: 100;
+
+        }
+
+        .col-1Games h4
+        {
+            margin: 30px 0;
+            font-size: 20px;
+
+        }
+
+        button
+        {
+            width: 140px;
+            border: 0;
+            padding: 12px 10px;
+            outline: none;
+            color: rgb(105, 71, 71);
+            background-color: linear-gradient(to right, #fb5283, #ff3527);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: width 0.5s;
+
+        }
+        button img{
+            width: 30px;
+         
+        }
+        button:hover img
+        {
+            display: block;
+        }
+        
+        button:hover
+        {
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .col-1Games::after
+        {
+            content: '';
+            width: 10px;
+            height: 57%;
+            background: linear-gradient(#ff469f, #ff6062);
+            position: absolute;
+            left: -40px;
+            top: 8px;
+        }
+      
+
+        .imgPil
+        {
+            width: 20px;
+            margin-top: 10px;
+          
+        }
+
+        .col-2Games
+        {
+            position: relative;
+            flex-basis:60%;
+            display: flex;
+            align-items: center;
+        }
+        .col-2Games .controller
+        {
+            width:90%;
+        }
+
+        .color-box
+        {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: linear-gradient(#ff54a2, #ff575a);
+            border-radius:20px 0 0 20px;
+            height: 100%;
+            width: 80%;
+            z-index:-1;
+            transform: translateX(150px);
+
+        }
+        .gamesContainer
+        {
+            width: 100%;
+            background-color: #000;
+            height: 600px;
+        }
+
+        .add-btn
+        {
+            width: 35px;
+            margin-bottom: 5px;
+        }
+
+        .add-btn{
+            text-align: center;
+            color: white;
+            cursor: pointer;
+        }
+
+        .social-links img
+        {
+            height: 20px;
+            width: 20px;
+            cursor: pointer;
+        }
+
+        .social-links
+        {
+            text-align: center;
+        }
+
+        @media only screen and (max-width:700px)
+        {
+           nav ul
+           {
+               width: 100%;
+               background: linear-gradient(#ff54a2, #ff575a);
+               position:  absolute;
+               top: 75px;
+               right: 0;
+               z-index: 2;
+           }
+
+           nav ul li
+           {
+               display: block;
+               margin-top: 10px;
+               margin-bottom: 10px;
+           };
+
+           nav ul li a
+           {
+               color: #fff;
+           }
+
+           .menu-iconGames
+           {
+               display: block;
+           }
+
+           #menuList
+           {
+               overflow: hidden;
+               transition: 0.5s;
+           }
+
+           .rowgames
+           {
+               flex-direction: column-reverse;
+               margin: 50px 0;
+           }
+          .col-2Games
+          {
+              flex-basis: 100%;
+              margin-bottom: 50px;
+          }
+          .col-2Games .controller
+          {
+              width: 77%;
+          }
+
+          .color-box
+          {
+              transform: translateX(75px);
+          }
+          .col-1Games
+          {
+              flex-basis: 100%;
+          }
+
+          .col-1Games h2{
+              font-size:35px;
+          }
+
+          .col-1Games h3{
+            font-size:15px;
+        }
+
+
+
+
+
+
+
+        }
+
+        .footer{
+            width: 100%;
+            min-height: 200px;
+            padding:20px 80px;
+            margin: 0;
+            background-color:#484872;
+            text-align: center;
+        }
+    
+        footer p
+        {
+            color: whitesmoke;
+            margin: 20px auto;
+        }
+        
